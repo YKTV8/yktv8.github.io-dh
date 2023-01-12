@@ -1,0 +1,913 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    height: 25vh;
+    width: 100vw;
+    background-color: aqua;
+} */
+/* html{
+        background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgb(54, 38, 138));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(54, 38, 138, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(54, 38, 138, 1.0));
+}
+a{
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration:none;
+}
+.logo{
+    font-size: 48px;
+    padding: 25px;
+    margin: 25px;
+}
+nav{
+    
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 0%, #000000 50%, #797979 100%);
+    background: -webkit-linear-gradient(top, #000000 0%, #000000 50%, #797979 100%);
+    background: linear-gradient(to bottom, #000000 0%, #000000 50%, #797979 100%);
+    height: 80px;
+    width: 100vw;
+    margin-bottom: 2px;
+
+}
+@media screen and (min-width:65px) {
+    html{
+        margin-right: -75px;
+    }
+    header{
+        height: auto;
+        width: auto; */
+        /* background-color: rgba(45, 78, 125, .5); 
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        position: relative;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/renovation-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/renovation2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/constr2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(./images/constr3-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+     }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:267px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5) */
+        /* Created with https://www.css-gradient.com */
+        /* background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); 
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        justify-items: center;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+     }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:450px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5) */
+        /* Created with https://www.css-gradient.com */
+        /* background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); 
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        justify-items: center;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 70vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+     }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
+@media screen and (min-width:1098px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5) */
+        /* Created with https://www.css-gradient.com */
+        /* background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); 
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        justify-items: center;
+    }
+    #nav, ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+    }
+    .entry{
+        background-image: url(./images/dirtwork-unsplash.jpg);
+        height: 70vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 40px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+     }
+    #footer{
+        background-color: black;
+        color: aliceblue;
+        height: 30vh;
+    }
+    
+}
+#footer, h4, p{
+    padding-top: 5px;
+    padding-left: 120px;
+}
+
+
+
+/* main page css code below */
+
+html{
+    background-repeat: no-repeat;
+    /* Created with https://www.css-gradient.com */
+    background: rgba(250, 216, 203, 1.0);
+    background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgb(34, 0, 206));
+    background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(34, 0, 206, 1.0));
+    background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(34, 0, 206, 1.0));
+}
+a{
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration:none;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    padding: 25px;
+    margin: 5px;
+}
+.socialmedia,i{
+    padding-right: 10px;
+}
+#nav{
+    
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 0%, #000000 50%, #797979 100%);
+    background: -webkit-linear-gradient(top, #000000 0%, #000000 50%, #797979 100%);
+    background: linear-gradient(to bottom, #000000 0%, #000000 50%, #797979 100%);
+    height: 80px;
+    width: 100vw;
+    margin-bottom: 2px;
+
+}
+a:hover{
+    color: rgba(0, 255, 225, 0.5);
+}
+.box-item1:hover, .box-item2:hover, .box-item3:hover, .box-item4:hover{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        /* padding-right: 20px;
+        margin-bottom: 20px; */
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #000000;
+}
+h3{
+    margin-left: 120px;
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 20% ; */
+}
+#nav h4::before{
+    opacity: 1;
+    color: #fff;
+}
+@media screen and (min-width:100px) and (max-width: 800px){
+    *{
+        overflow-x: hidden;
+    }
+    html{
+        margin-right: -75px;
+    }
+    header{
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5); */
+        /* Created with https://www.css-gradient.com */
+        /* background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
+    }
+   
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    h3{
+        margin-left: 30px;
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        position: relative;
+    }
+    nav, ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow-y: hidden;
+    }
+    /* li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default; 
+    } */
+    #nav{
+        display: flex;
+        align-content: flex-start;
+        height: 40vh;
+        width: 100%;
+    }
+    button{
+        display: flex;
+        align-content: flex-start;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        padding-right: 20%;
+        padding-left: 10%;
+    }
+    nav{
+        background-color: white;
+        padding: 20px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        border-radius: 3px;
+        box-shadow: 0 2px, 5px rgba(0, 0, 0, 0.3);
+        transition: width 0.6s linear;
+    }
+    nav.active{
+        width: 450px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        overflow-y: hidden;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        padding-left: 50px;
+        margin: 0;
+        width: 0;
+        transition: width 0.6s linear;
+    }
+    nav.active ul{
+        width: 100%;
+    }
+    nav ul li{
+        list-style-type: none;
+        transform: rotateY(0deg);
+        opacity: 0;
+        transition: transform 0.6s linear, opacity 0.6s linear;
+    }
+    nav.active ul li{
+        list-style-type: none;
+        padding-bottom: 10px;
+        
+        opacity: 1;
+        transform: rotateY(360deg);
+    }
+    nav ul a{
+        position: relative;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .icon{
+    /* background-color: #fff; */
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    }
+    .icon .line{
+        background-color: #5290f9;
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        transition: transform 0.6s linear;
+    }
+    .icon .line2{
+        top: auto;
+        bottom: 10px;
+    }
+    nav.active .icon .line1{
+        transform: rotate(-765deg) translateY(5.5px);
+    }
+    nav.active .icon .line2{
+        transform: rotate(765deg) translateY(-5.5px);
+    }
+    .entry{
+        background-image: url(../images/rooofing-unsplash.jpg);
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/renovation-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/renovation2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/constr2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/constr3-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+     }
+     #footer{
+        overflow-y: hidden;
+     }
+    footer{
+        
+        background-color: black;
+        color: aliceblue;
+        height: 70vh;
+        justify-content: left;
+        padding-left: 25%;
+    }
+    h6{
+        display: flex;
+        justify-content: left;
+        margin-bottom: -15px;
+    }
+    
+}
+
+@media screen and (min-width:801px) and (max-width:3000px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        /* background-color: rgba(45, 78, 125, .5) */
+        /* Created with https://www.css-gradient.com */
+        /* background: rgba(250, 216, 203, 1.0);
+        background: -webkit-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: -moz-radial-gradient(bottom right, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0));
+        background: radial-gradient(to top left, rgba(250, 216, 203, 1.0), rgba(27, 99, 10, 1.0)); */
+    }
+    body{
+        width: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    a{
+        display: flex;
+        align-content: center;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        justify-items: center;
+    }
+    .active{
+        display: flex;
+    }
+    #nav{
+        display: flex;
+        align-content: flex-start;
+    }
+    button{
+        display: flex;
+        align-content: flex-start;
+    }
+    h3{
+        padding-right: 100px;
+    }
+    article{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20% ;
+    }
+    nav{
+        background-color: white;
+        padding: 20px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        border-radius: 3px;
+        box-shadow: 0 2px, 5px rgba(0, 0, 0, 0.3);
+        transition: width 0.6s linear;
+    }
+    nav.active{
+        width: 450px;
+    }
+    nav ul{
+        display: flex;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        padding-left: 0px;
+        margin: 0;
+        width: 0;
+        transition: width 0.6s linear;
+    }
+    nav.active ul{
+        width: 100%;
+    }
+    nav ul li{
+        align-items: center;
+        transform: rotateY(0deg);
+        opacity: 0;
+        transition: transform 0.6s linear, opacity 0.6s linear;
+    }
+    nav.active ul li{
+        list-style-type: none;
+        opacity: 1;
+        transform: rotateY(360deg);
+    }
+    nav ul a{
+        list-style-type: none;
+        position: relative;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .icon{
+    /* background-color: #fff; */
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    }
+    .icon .line{
+        background-color: #5290f9;
+        height: 2px;
+        width: 20px;
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        transition: transform 0.6s linear;
+    }
+    .icon .line2{
+        top: auto;
+        bottom: 10px;
+    }
+    nav.active .icon .line1{
+        transform: rotate(-765deg) translateY(5.5px);
+    }
+    nav.active .icon .line2{
+        transform: rotate(765deg) translateY(-5.5px);
+    }
+    /* uncomment once navbar function is corected */
+    /* li{
+        padding: 15px;
+        list-style-type: none;
+        cursor: default;
+        
+    } */
+    .entry{
+        background-image: url(../images/rooofing-unsplash.jpg);
+        height: 70vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-items-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 150px;
+    }
+    .box-item1{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/renovation-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+
+    }
+    .box-item2{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/renovation2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item3{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/constr2-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+    }
+    .box-item4{
+        background-color: rgba(45, 78, 125, .5);
+        background-image: url(../images/constr3-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:200px;
+        padding-right: 20px;
+        margin-right: 20px;
+        -webkit-box-shadow: 5px 5px 17px 7px #7A7A7A; 
+        box-shadow: 5px 5px 17px 7px #ffffff;
+     }
+    footer{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: aliceblue;
+        height: 42vh;
+        padding-top: 15px;
+        padding-left: 80px;
+    }
+    h5{
+        margin: 0;
+    }
+}
